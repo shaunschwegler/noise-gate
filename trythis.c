@@ -2,7 +2,7 @@
 
     whip this shit in your loop and see if it does bits
     if its shit I'll have another look at it
-    don't the first 4 bits need to go up top as they're calling Arduino.h and AudioStream.h from the man above
+    don't forget the first 4 bits need to go up top as they're calling Arduino.h and AudioStream.h from the man above
     lmk if it cuts off more frequencies top or bottom
 
     line 31 includes a signed 16-bit integer variable by the name 'thresholdLevelInt', which is equal to the product of two variables, x and 32767.0f (the maximum threshold). Edit the value of x so that the product equals the decibel cutoff you want.
